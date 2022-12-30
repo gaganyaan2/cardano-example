@@ -13,6 +13,7 @@
 
 ### commands
 ```bash
+#update "blockfrost_api_token" first
 
 deno run --allow-net --allow-read 1.create-wallet.ts
 
