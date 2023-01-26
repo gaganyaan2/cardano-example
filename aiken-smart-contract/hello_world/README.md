@@ -23,8 +23,10 @@ deno run --allow-net --allow-read 3.hello_world-unlock.ts
 ```bash
 deno run --allow-net --allow-read 4.create-vesting-wallet.ts
 
+# update lock_until time
 deno run --allow-net --allow-read 4.create-vesting-wallet.ts
 
+# after lock_until is passed
 deno run --allow-net --allow-read 6.vesting_unlock.ts
 ```
 
